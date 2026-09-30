@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node
+node_modules/
+dist/
+build/
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Env
+.env
