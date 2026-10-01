@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 
-from app.routers import auth
+from app.routers import auth, items
 
 app = FastAPI(title="Media Recommender", version="0.1.0")
 
 app.include_router(auth.router)
+app.include_router(items.router)
 
 
 @app.get("/health")
