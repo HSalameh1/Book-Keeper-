@@ -228,4 +228,4 @@ build/
 !.vscode/launch.json
 
 # Env
-.env
+.env.env
